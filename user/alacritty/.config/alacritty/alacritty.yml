@@ -2,3 +2,18 @@ cursor:
   style:
     shape: Beam
 
+font:
+  normal:
+    family: Fira code
+    style: Regular
+  bold:
+    family: Fira code
+    style: bold
+  italic:
+    family: Fira code
+    style: italic
+  bold_italic:
+    family: Fira code
+    style: Bold Italic
+  size: 13
+
