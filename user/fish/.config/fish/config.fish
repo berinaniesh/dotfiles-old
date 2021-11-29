@@ -11,6 +11,6 @@ abbr fishedit "~/.config/fish/config.fish"
 abbr lazygit 'git add . && git commit -m "update" && git push origin main'
 function gitpush
 	git add .
-	git commit -m "$argv"
+	git commit -m $argv
 	git push origin main
 	end
