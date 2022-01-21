@@ -5,6 +5,7 @@ end
 
 set -Ux GOPATH /home/berinaniesh/.golib
 set -Ux PATH $PATH /home/berinaniesh/.golib/bin
+set -Ux EDITOR nvim
 
 abbr ytda "youtube-dl -x -f 251"
 abbr ytdaxel "youtube-dl --external-downloader axel --external-downloader-args '-n 8'"
