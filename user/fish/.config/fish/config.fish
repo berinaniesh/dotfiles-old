@@ -3,8 +3,8 @@ if status is-interactive
 end
 
 
-set -Ux GOPATH /home/berinaniesh/.golib
-set -Ux PATH $PATH /home/berinaniesh/.golib/bin
+set -Ux GOPATH /home/berinaniesh/Development/go
+set -Ux PATH $PATH /home/berinaniesh/Development/go/bin
 set -Ux EDITOR nvim
 
 abbr ytda "youtube-dl -x -f 251"
