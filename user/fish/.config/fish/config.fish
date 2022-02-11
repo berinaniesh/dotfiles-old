@@ -13,7 +13,7 @@ abbr fishedit "vim /home/berinaniesh/.config/fish/config.fish"
 abbr lazygit 'git add . && git commit -m "update" && git push origin main'
 alias compile "g++"
 
-abbr siteupdate "scp /home/berinaniesh/Development/berinaniesh.xyz/dst/* berinaniesh@berinaniesh.xyz:/home/berinaniesh/websites/berinaniesh.xyz/"
+abbr siteupdate "scp -r /home/berinaniesh/Development/berinaniesh.xyz/dst/* berinaniesh@berinaniesh.xyz:/home/berinaniesh/websites/berinaniesh.xyz/"
 
 
 function gitpush
